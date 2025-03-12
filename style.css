@@ -1,0 +1,25 @@
+/* Blog Section Styles */
+#blog {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px; /* Limit the width for larger screens */
+}
+
+/* Responsive Text */
+#blog p {
+    font-size: 16px; /* Base font size */
+    line-height: 1.5; /* Improve readability */
+}
+
+/* Responsive Images */
+#blog img {
+    max-width: 100%; /* Ensure images scale down */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 600px) {
+    #blog p {
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+}
